@@ -10,13 +10,13 @@ steps {
 
 bat 'https://github.com/vishnu32253/jenkins'
 
-echo 'Development
+echo 'Development'
 
 stage('QA'){
 
 steps{
 
-echo "QA
+echo 'QA'
 
 }
 
