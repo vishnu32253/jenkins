@@ -1,1 +1,37 @@
-Hello World
+pipeline (
+
+agent any
+
+stages {
+
+stage('Development') {
+
+steps {
+
+bat 'https://github.com/vishnu32253/jenkins'
+
+echo 'Development
+
+stage('QA'){
+
+steps{
+
+echo "QA
+
+}
+
+}
+
+stage('Testing'){
+
+steps{
+
+echo 'Testing'
+
+}
+
+}
+
+}
+
+}
