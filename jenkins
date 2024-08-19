@@ -1,6 +1,6 @@
 pipeline (
 
-agent any
+  agent any
 
 stages {
 
@@ -8,9 +8,11 @@ stage('Development') {
 
 steps {
 
-bat 'https://github.com/vishnu32253/jenkins'
+bat 'git clone https://github.com/vishnu32253/jenkins'
 
 echo 'Development'
+}
+}
 
 stage('QA'){
 
